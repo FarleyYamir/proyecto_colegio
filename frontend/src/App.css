@@ -1,0 +1,215 @@
+.App {
+  text-align: center;
+}
+
+#encabezado{
+  display: inline;
+}
+
+#block-nav {
+  background-color:white;
+  border: 2px solid #1034A6;
+
+}
+
+.items-nav {
+  display: inline;
+}
+
+.btn-nav {
+  background-color: white;
+  color: #1034A6;
+  border: 0px;
+  font-size: 25px;
+  padding: 1.2%;
+}
+
+#let-reg {
+  color: #1034A6;
+  
+ }
+
+.titulo {
+  background-color: write;
+  color: #01016D;
+  font-size: 28px;
+  padding: 1%;
+  text-align: center;
+  float: center;
+  font-family: Segoe UI;
+  
+}
+
+
+#parrafo-home {
+  font-size: 20px;
+  padding: 0.5%;
+  text-align: justify;
+  margin-right: 6%;
+  margin-top: 5%;
+}
+
+
+
+#bienvenida {
+  margin: 2%;
+  padding: 2%;
+  
+}
+
+#imagen-home {
+  margin: 5%;
+  border-radius: 25px;
+  width: 650px;
+  height: 500px;
+
+  
+}
+
+
+#imagen-logo{
+  float: left;
+  margin-top: 1%;
+  margin-left: 3%;
+  width: 70px;
+  height: 70px;
+}
+
+#imagen-logo2{
+ float: right;
+ margin-top: 1%;
+ margin-right: 3%;
+ width: 70px;
+ height: 70px;
+}
+.encabezado{
+  text-align: left;
+  padding: 0.5%;
+  font-size: 40px;
+}
+
+
+
+.btn-reg {
+  background-color:green;
+  color: black;
+  border-radius: 25px;
+  transition: transform 0.3s ease;
+  font-size: 50px;
+  width: 250px;
+}
+
+.form {
+  font-size: 30px;
+  color: #999;
+}
+
+.recuadro-form{
+  border-radius: 3px;
+  padding: 8px;
+  width: 400px;
+}
+
+.recuadro-tarea {
+  border-radius: 3px;
+  padding: 15px;
+  height: 80px;
+  width: 400px;
+}
+
+#parrafo-galeria {
+  font-size: 15px;
+  padding: 0.5%;
+  text-align: justify;
+  margin-right: 6%;
+  margin-top: 2%;
+}
+
+.card {
+  padding: 5%;
+  margin: 5%;
+  border-radius: 10px;
+}
+
+.video {
+text-align: center;
+}
+
+.reglamento {
+ margin: 5%;
+}
+
+.titulo-reg {
+  text-align: center;
+}
+
+.subt-reg {
+  text-align: left;
+  font-size: 25px;
+}
+
+.imag-even {
+  border-radius: 25px;
+  width: 700px;
+  height: 500px;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+
+
+.footer-pie {
+  background-color: #434343;
+}
+
+.text-pie{
+  color: white;
+}
+
+#imagen-banner{
+  width: 900px;
+  height: 300px;
+}
+
+#banner-img {
+  margin-left: 25%;
+  margin-right: 15%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  width: 55%;
+  height: 300px;
+}
+
+.titulo_inscripcion {
+  text-align: left;
+  margin-left: 3%;
+}
+
+.logo_inscripcion {
+  margin-right: 87%;
+  width: 100px;
+  height: 100px;
+}
+
+.dep_titulo {
+  color: #1034A6;
+  font-size: 45px;
+}
+
+.dep_subtitulo {
+  font-size: 40px;
+}
+
+.parrafo_inscripcion {
+  margin-left: 3%;
+  margin-right: 20%;
+  font-size: 20px;
+  text-align: justify;
+}
+
+#reglamento {
+  margin-left: 3%;
+  margin-right: 3%;
+}
