@@ -1,4 +1,4 @@
-function Reglas () {
+/*function Reglas () {
     return(
         <div className="reglamento">
             <div>
@@ -105,4 +105,80 @@ function Reglas () {
     )
 }
 
-export default Reglas
+export default Reglas*/
+
+import React, { useState } from 'react';
+import './style/Reglas.css';
+
+function Reglas() {
+    const [modalContent, setModalContent] = useState('');
+    const [isModalOpen, setModalOpen] = useState(false);
+
+    const openModal = (content) => {
+        setModalContent(content);
+        setModalOpen(true);
+    };
+
+    const closeModal = () => {
+        setModalOpen(false);
+        setModalContent('');
+    };
+
+    return (
+        <div className="reglamento">
+            <br></br>
+            <h1 className="titulo-reg">DEPORTES PRACTICADOS DENTRO DEL ESTABLECIMIENTO EDUCATIVO</h1>
+            
+            <div className="card">
+                <h2 className="subt-reg">MICROFÚTBOL (FÚTBOL DE SALÓN)</h2>
+                <button onClick={() => openModal(`
+                    <h3 className="subt-reg">Reglamento:</h3>
+                    <p>En la institución educativa se maneja el reglamento de microfútbol y no el de futbol sala...</p>
+                    <h3 className="subt-reg">Adaptación en la institución educativa</h3>
+                    <p>A continuación algunas reglas del microfútbol:...</p>
+                `)}>Ver Más</button>
+            </div>
+
+            <div className="card">
+                <h2 className="subt-reg">BALONCESTO</h2>
+                <button onClick={() => openModal(`
+                    <h3 className="subt-reg">Reglamento:</h3>
+                    <p>En la institución educativa se maneja el reglamento del baloncesto en su totalidad...</p>
+                    <h3 className="subt-reg">Adaptación en la institución educativa</h3>
+                    <p>A continuación algunas reglas que se manejan en la institución educativa:...</p>
+                `)}>Ver Más</button>
+            </div>
+
+            <div className="card">
+                <h2 className="subt-reg">VOLEIBOL</h2>
+                <button onClick={() => openModal(`
+                    <h3 className="subt-reg">Reglamento:</h3>
+                    <p>En la institución educativa se maneja el reglamento del voleibol en su totalidad...</p>
+                    <h3 className="subt-reg">Adaptación en la institución educativa</h3>
+                    <p>A continuación algunas reglas importantes del voleibol:...</p>
+                `)}>Ver Más</button>
+            </div>
+
+            <div className="card">
+                <h2 className="subt-reg">AJEDREZ</h2>
+                <button onClick={() => openModal(`
+                    <h3 className="subt-reg">Reglamento:</h3>
+                    <p>El ajedrez es un deporte que no maneja una gran cantidad de reglas...</p>
+                    <h3 className="subt-reg">Adaptación en la institución educativa</h3>
+                    <p>A continuación, te enseñamos algunas de las reglas del ajedrez:...</p>
+                `)}>Ver Más</button>
+            </div>
+
+            {isModalOpen && (
+                <div className="modal" onClick={closeModal}>
+                    <div className="modal-content" onClick={e => e.stopPropagation()}>
+                        <span className="close" onClick={closeModal}>&times;</span>
+                        <div dangerouslySetInnerHTML={{ __html: modalContent }} />
+                    </div>
+                </div>
+            )}
+        </div>
+    );
+}
+
+export default Reglas;
