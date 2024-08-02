@@ -1,0 +1,39 @@
+/* Navegation.css */
+
+.nav-container {
+  background-color: #1034A6; /* Color de fondo del menú de navegación */
+  padding: 10px 0;
+  border-bottom: 3px solid #01016D; /* Borde inferior para definir el área del menú */
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center; /* Centra los ítems en la barra de navegación */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin: 0 15px; /* Espaciado entre los ítems de navegación */
+}
+
+.nav-btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px; /* Bordes redondeados para los botones */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-btn:hover {
+  background-color: #01016D; /* Color de fondo al pasar el ratón sobre el botón */
+  color: #fff; /* Color del texto al pasar el ratón sobre el botón */
+}
+
+.nav-btn:focus {
+  outline: none; /* Elimina el borde azul al hacer clic */
+}

@@ -1,0 +1,36 @@
+/* Banner.css */
+
+.banner-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 10px; /* Añade un borde redondeado opcional */
+    height: 400px; /* Establece una altura fija para el contenedor del carrusel */
+  }
+  
+  .carousel-inner {
+    height: 70%; /* Asegúrate de que el contenedor interno ocupe toda la altura */
+  }
+  
+  .carousel-item {
+    height: 70%; /* Asegura que cada ítem del carrusel ocupe toda la altura del contenedor */
+  }
+  
+  .carousel-img {
+    height: 70%; /* Ajusta la imagen al 100% de la altura del contenedor */
+    width: 70%; /* Asegura que la imagen cubra todo el ancho del contenedor */
+    
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    filter: invert(100%); /* Opcional: Invierte los colores de los controles para mejor visibilidad sobre imágenes */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para los íconos de control */
+    border-radius: 50%; /* Botones de control redondeados */
+    padding: 10px; /* Espaciado interno en los botones de control */
+  }
+  
