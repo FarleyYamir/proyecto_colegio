@@ -1,7 +1,8 @@
+/* App.css */
+
 .App {
   text-align: center;
 }
-
 
 #encabezado {
   display: inline;
@@ -28,7 +29,6 @@
   color: #1034A6;
 }
 
-
 .titulo {
   background-color: white;
   color: #01016D;
@@ -36,6 +36,39 @@
   padding: 1%;
   text-align: center;
   font-family: 'Segoe UI', sans-serif;
+}
+
+/* Remove or adjust these styles to avoid affecting the banner */
+#imagen-logo, #imagen-logo2 {
+  /* Consider removing these if they affect the banner */
+  width: 70px;
+  height: 70px;
+  margin-top: 1%;
+}
+
+#imagen-logo {
+  float: left;
+  margin-left: 3%;
+}
+
+#imagen-logo2 {
+  float: right;
+  margin-right: 3%;
+}
+
+/* Remove or adjust these styles for the banner */
+#banner-img {
+  /* Remove or adjust these styles */
+  width: 700px;
+  height: 200px;
+}
+
+#imagen-home {
+  /* Remove or adjust these styles */
+  margin: 5%;
+  border-radius: 25px;
+  width: 650px;
+  height: 500px;
 }
 
 #parrafo-home {
@@ -57,85 +90,6 @@
   margin: 2% 6% 0;
 }
 
-/* Images */
-#imagen-home {
-  margin: 5%;
-  border-radius: 25px;
-  width: 650px;
-  height: 500px;
-}
-
-#imagen-logo, #imagen-logo2 {
-  width: 70px;
-  height: 70px;
-  margin-top: 1%;
-}
-
-#imagen-logo {
-  float: left;
-  margin-left: 3%;
-}
-
-#imagen-logo2 {
-  float: right;
-  margin-right: 3%;
-}
-
-#imagen-banner {
-  width: 700px;
-  height: 200px;
-}
-
-#banner-img {
-  margin: 3% 15% 5% 25%;
-  width: 55%;
-  height: 300px;
-}
-
-.imag-even {
-  border-radius: 25px;
-  width: 700px;
-  height: 500px;
-}
-
-/* Forms */
-.form {
-  font-size: 30px;
-  color: #999;
-}
-
-.recuadro-form, .recuadro-tarea {
-  border-radius: 3px;
-  padding: 8px;
-  width: 400px;
-}
-
-.recuadro-tarea {
-  padding: 15px;
-  height: 80px;
-}
-
-/* Buttons */
-.btn-reg {
-  background-color: green;
-  color: black;
-  border-radius: 25px;
-  transition: transform 0.3s ease;
-  font-size: 50px;
-  width: 250px;
-}
-
-/* Cards */
-.card {
-  padding: 5%;
-  margin: 5%;
-  border-radius: 10px;
-}
-
-.video {
-  text-align: center;
-}
-
 /* Footer */
 .footer-pie {
   background-color: #434343;
@@ -143,28 +97,4 @@
 
 .text-pie {
   color: white;
-}
-
-
-.titulo-reg, .titulo_inscripcion {
-  text-align: center;
-}
-
-.subt-reg, .dep_subtitulo {
-  font-size: 25px; 
-}
-
-.dep_titulo {
-  color: #1034A6;
-  font-size: 45px;
-}
-
-.parrafo_inscripcion {
-  margin: 0 20% 0 3%;
-  font-size: 20px;
-  text-align: justify;
-}
-
-#reglamento {
-  margin: 0 3%;
 }

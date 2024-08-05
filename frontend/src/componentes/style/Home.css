@@ -1,0 +1,29 @@
+/* Home.css */
+
+/* Flex container for aligning image and text */
+.media-container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    margin: 1rem 0; /* Adjust margin for spacing */
+}
+
+#imagen-home {
+    border-radius: 25px;
+    margin-right: 2rem; /* Space between image and text */
+    width: 100%; /* Adjust width as needed */
+    max-width: 500px; /* Control the maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.text-content {
+    flex: 1; /* Allow text to take up the remaining space */
+    max-width: 800px; /* Adjust width as needed to make the text area wider */
+}
+
+#parrafo-home {
+    font-size: 20px;
+    padding: 0.7%;
+    text-align: justify;
+    margin: 0; /* Adjust margin as needed */
+    line-height: 1.6; /* Improve readability */
+}

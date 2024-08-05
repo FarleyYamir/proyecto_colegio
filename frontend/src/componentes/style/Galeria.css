@@ -1,0 +1,80 @@
+/* Galeria.css */
+
+.container {
+    margin: 20px auto;
+    max-width: 1200px; /* Ajusta según el diseño */
+    padding: 0 20px; /* Añade un poco de relleno horizontal */
+}
+
+.row {
+    margin: 0;
+    gap: 50px; /* Espacio entre las columnas */
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 25px; /* Espacio debajo de cada tarjeta */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transición para efectos hover */
+}
+
+.card:hover {
+    transform: scale(1.4);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #f9f9f9; /* Color de fondo ligeramente gris */
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #1034A6; /* Color azul oscuro */
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase; /* Texto en mayúsculas */
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #333; /* Color de texto más oscuro */
+    line-height: 1.6; /* Espacio entre líneas */
+}
+
+.video {
+    text-align: center;
+    margin-top: 20px; /* Espacio arriba del video */
+}
+
+.video:hover {
+    transform: scale(1.05); /* Aumenta el tamaño en un 5% */
+}
+
+iframe {
+    border: none;
+    border-radius: 12px;
+    width: 100%; /* Ajusta al ancho del contenedor */
+    height: 400px; /* Ajusta la altura del video */
+}
+
+/* Ajustes adicionales para asegurar el buen espaciado */
+@media (min-width: 768px) {
+    .col {
+        flex: 1 1 calc(50% - 20px); /* 50% del ancho menos el espacio entre columnas */
+    }
+}
+
+@media (min-width: 992px) {
+    .col {
+        flex: 1 1 calc(33.333% - 20px); /* 33.333% del ancho menos el espacio entre columnas */
+    }
+}

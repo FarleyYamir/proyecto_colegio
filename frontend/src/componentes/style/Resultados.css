@@ -1,0 +1,60 @@
+/* Resultados.css */
+
+.resultados-container {
+    padding: 20px;
+    background-color: #f4f4f9; /* Color de fondo claro */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    max-width: 1200px; /* Ancho máximo */
+    margin: 0 auto; /* Centrar el contenedor */
+}
+
+.resultados-title {
+    text-align: center;
+    color: #1034A6; /* Color azul oscuro */
+    font-size: 2.5rem; /* Tamaño de fuente grande */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    font-family: 'Segoe UI', sans-serif; /* Fuente moderna */
+}
+
+.table-container {
+    overflow-x: auto; /* Asegura que la tabla sea desplazable en pantallas pequeñas */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse; /* Elimina espacios entre celdas */
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: center;
+}
+
+.table thead {
+    background-color: #1034A6; /* Color de fondo para el encabezado */
+    color: white; /* Color del texto del encabezado */
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Color alternante para las filas */
+}
+
+.table tbody tr:hover {
+    background-color: #e2e2e2; /* Color de fondo al pasar el cursor */
+}
+
+.table th {
+    font-weight: bold;
+}
+
+.table td {
+    font-size: 1rem;
+    color: #333; /* Color de texto más oscuro */
+}
+
+@media (max-width: 768px) {
+    .table {
+        font-size: 0.875rem; /* Tamaño de fuente más pequeño en pantallas pequeñas */
+    }
+}

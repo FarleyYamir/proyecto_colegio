@@ -1,36 +1,57 @@
-/* Banner.css */
-
+/* Estilo general para el contenedor del banner */
 .banner-container {
-    position: relative;
-    max-width: 100%;
-    overflow: hidden;
-    border-radius: 10px; /* Añade un borde redondeado opcional */
-    height: 400px; /* Establece una altura fija para el contenedor del carrusel */
-  }
-  
-  .carousel-inner {
-    height: 70%; /* Asegúrate de que el contenedor interno ocupe toda la altura */
-  }
-  
-  .carousel-item {
-    height: 70%; /* Asegura que cada ítem del carrusel ocupe toda la altura del contenedor */
-  }
-  
-  .carousel-img {
-    height: 70%; /* Ajusta la imagen al 100% de la altura del contenedor */
-    width: 70%; /* Asegura que la imagen cubra todo el ancho del contenedor */
-    
-  }
-  
-  .carousel-control-prev,
-  .carousel-control-next {
-    filter: invert(100%); /* Opcional: Invierte los colores de los controles para mejor visibilidad sobre imágenes */
-  }
-  
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para los íconos de control */
-    border-radius: 50%; /* Botones de control redondeados */
-    padding: 10px; /* Espaciado interno en los botones de control */
-  }
-  
+  position: relative;
+  max-width: 100%; /* Ajusta el contenedor al tamaño del viewport */
+  overflow: hidden; /* Oculta el contenido que se desborda */
+  border-radius: 10px; /* Bordes redondeados opcionales */
+  height: 400px; /* Altura fija para el contenedor del carrusel */
+}
+
+/* Estilo para el contenedor interno del carrusel */
+.carousel-inner {
+  height: 70%; /* Asegura que el contenedor interno ocupe toda la altura */
+}
+
+/* Estilo para cada ítem del carrusel */
+.carousel-item {
+  height: 50%; /* Asegura que cada ítem del carrusel ocupe toda la altura del contenedor */
+}
+
+/* Estilo para las imágenes del carrusel */
+.carousel-img {
+  width: 50%; /* Asegura que la imagen cubra todo el ancho del contenedor */
+  height: 50%; /* Asegura que la imagen cubra toda la altura del contenedor */
+  object-fit: cover; /* Ajusta la imagen para cubrir el contenedor sin distorsionar */
+}
+
+/* Estilo para los botones de control del carrusel (anterior y siguiente) */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%; /* Ajusta el ancho de los botones de control */
+  height: 50%; /* Asegura que los botones de control ocupen toda la altura del contenedor */
+  color: white; /* Color del ícono */
+  border: none; /* Sin borde */
+  display: flex;
+  align-items: center; /* Centra verticalmente el ícono */
+  justify-content: center; /* Centra horizontalmente el ícono */
+  z-index: 5; /* Asegura que las flechas estén sobre el carrusel */
+  top: 0; /* Posiciona el botón en la parte superior del contenedor */
+}
+
+.carousel-control-prev {
+  left: 0; /* Posiciona el botón de anterior en el borde izquierdo */
+}
+
+.carousel-control-next {
+  right: 0; /* Posiciona el botón de siguiente en el borde derecho */
+}
+
+/* Estilo para los íconos de los botones de control */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: transparent; /* Fondo transparente para el ícono */
+  background-size: 100%, 100%; /* Ajusta el tamaño del ícono */
+  background-repeat: no-repeat; /* Evita que el ícono se repita */
+  width: 30px; /* Ancho del ícono de control */
+  height: 30px; /* Altura del ícono de control */
+}

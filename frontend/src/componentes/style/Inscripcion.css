@@ -1,0 +1,67 @@
+/* Estilo general para el contenedor principal */
+.inscripcion-container {
+    text-align: left; /* Alinea el texto hacia la izquierda */
+    padding: 50px;
+    background: #f8f9fa; /* Fondo claro para una apariencia limpia */
+    min-height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la ventana */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinea el contenido hacia la izquierda */
+    justify-content: center;
+  }
+  
+  /* Estilo para el logo de inscripción */
+  .logo_inscripcion {
+    width: 150px; /* Ajusta el tamaño del logo */
+    border-radius: 50%; /* Redondea las esquinas del logo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil alrededor del logo */
+    margin-bottom: 20px; /* Espacio debajo del logo */
+  }
+  
+  /* Estilo para el contenedor del título */
+  .titulo_inscripcion {
+    margin-bottom: 30px; /* Espacio debajo del título */
+  }
+  
+  /* Estilo para el título */
+  .dep_titulo {
+    font-size: 2.5rem; /* Tamaño grande para el título */
+    color: #343a40; /* Color oscuro para el texto */
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para el subtítulo */
+  .dep_subtitulo {
+    font-size: 2rem; /* Tamaño grande para el subtítulo */
+    color: #007bff; /* Color primario del tema */
+    font-weight: normal;
+  }
+  
+  /* Estilo para el párrafo de inscripción */
+  .parrafo_inscripcion {
+    font-size: 1.25rem; /* Tamaño de fuente mayor para mejor legibilidad */
+    color: #495057; /* Color gris oscuro para el texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+    max-width: 800px; /* Máxima anchura para el párrafo */
+    margin: 20px 0; /* Margen vertical para el párrafo */
+    padding: 0 20px; /* Padding horizontal para mejorar el espaciado */
+  }
+  
+  /* Estilo para el botón de inscripción */
+  .btn-outline-primary {
+    border-color: #007bff; /* Color del borde del botón */
+    color: #007bff; /* Color del texto del botón */
+    font-size: 1.25rem; /* Tamaño del texto del botón */
+    padding: 10px 20px; /* Padding interno del botón */
+    border-radius: 30px; /* Bordes redondeados del botón */
+    transition: background-color 0.3s, color 0.3s; /* Transiciones suaves para los efectos */
+    text-align: center; /* Alineación del texto dentro del botón */
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #007bff; /* Color de fondo cuando se pasa el ratón */
+    color: white; /* Color del texto cuando se pasa el ratón */
+    border-color: #007bff; /* Mantiene el borde del color primario */
+  }
+  
