@@ -22,7 +22,10 @@ function Reglas() {
     return (
         <div className="reglamento">
             <br />
-            <h1 className="titulo-reglamento">DEPORTES PRACTICADOS DENTRO DEL ESTABLECIMIENTO EDUCATIVO</h1>
+            <div>
+                <h1 className="titulo-reglamento">DEPORTES PRACTICADOS DENTRO DEL ESTABLECIMIENTO EDUCATIVO</h1>
+            </div>
+            
             
             <div className="tarjeta">
                 <img src={futbol} alt="Imagen relacionada con microfútbol" className="imagen-tarjeta" />

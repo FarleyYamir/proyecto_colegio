@@ -4,23 +4,23 @@
   max-width: 100%; /* Ajusta el contenedor al tamaño del viewport */
   overflow: hidden; /* Oculta el contenido que se desborda */
   border-radius: 10px; /* Bordes redondeados opcionales */
-  height: 400px; /* Altura fija para el contenedor del carrusel */
+  aspect-ratio: 16 / 9; /* Mantiene una proporción fija, ajustable según tus necesidades */
 }
 
 /* Estilo para el contenedor interno del carrusel */
 .carousel-inner {
-  height: 70%; /* Asegura que el contenedor interno ocupe toda la altura */
+  height: 100%; /* Asegura que el contenedor interno ocupe toda la altura del contenedor */
 }
 
 /* Estilo para cada ítem del carrusel */
 .carousel-item {
-  height: 50%; /* Asegura que cada ítem del carrusel ocupe toda la altura del contenedor */
+  height: 100%; /* Asegura que cada ítem del carrusel ocupe toda la altura del contenedor */
 }
 
 /* Estilo para las imágenes del carrusel */
 .carousel-img {
-  width: 50%; /* Asegura que la imagen cubra todo el ancho del contenedor */
-  height: 50%; /* Asegura que la imagen cubra toda la altura del contenedor */
+  width: 100%; /* Asegura que la imagen cubra todo el ancho del contenedor */
+  height: 100%; /* Asegura que la imagen cubra toda la altura del contenedor */
   object-fit: cover; /* Ajusta la imagen para cubrir el contenedor sin distorsionar */
 }
 
@@ -28,7 +28,7 @@
 .carousel-control-prev,
 .carousel-control-next {
   width: 5%; /* Ajusta el ancho de los botones de control */
-  height: 50%; /* Asegura que los botones de control ocupen toda la altura del contenedor */
+  height: 100%; /* Asegura que los botones de control ocupen toda la altura del contenedor */
   color: white; /* Color del ícono */
   border: none; /* Sin borde */
   display: flex;
@@ -36,14 +36,17 @@
   justify-content: center; /* Centra horizontalmente el ícono */
   z-index: 5; /* Asegura que las flechas estén sobre el carrusel */
   top: 0; /* Posiciona el botón en la parte superior del contenedor */
+  position: absolute; /* Asegura que el botón esté posicionado respecto al contenedor */
 }
 
+/* Posiciona el botón de anterior en el borde izquierdo */
 .carousel-control-prev {
-  left: 0; /* Posiciona el botón de anterior en el borde izquierdo */
+  left: 0;
 }
 
+/* Posiciona el botón de siguiente en el borde derecho */
 .carousel-control-next {
-  right: 0; /* Posiciona el botón de siguiente en el borde derecho */
+  right: 0;
 }
 
 /* Estilo para los íconos de los botones de control */
