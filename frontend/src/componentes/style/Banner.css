@@ -4,7 +4,6 @@
   max-width: 100%; /* Ajusta el contenedor al tamaño del viewport */
   overflow: hidden; /* Oculta el contenido que se desborda */
   border-radius: 10px; /* Bordes redondeados opcionales */
-  aspect-ratio: 16 / 9; /* Mantiene una proporción fija, ajustable según tus necesidades */
 }
 
 /* Estilo para el contenedor interno del carrusel */
