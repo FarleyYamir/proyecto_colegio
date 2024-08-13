@@ -26,7 +26,9 @@ function Reglas() {
                 <h1 className="titulo-reglamento">DEPORTES PRACTICADOS DENTRO DEL ESTABLECIMIENTO EDUCATIVO</h1>
             </div>
             
-            
+            <br></br>
+            <br></br>
+
             <div className="tarjeta">
                 <img src={futbol} alt="Imagen relacionada con microfútbol" className="imagen-tarjeta" />
                 <h2 className="subtitulo-tarjeta">MICROFÚTBOL</h2>
