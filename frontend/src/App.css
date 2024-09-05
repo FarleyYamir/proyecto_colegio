@@ -32,28 +32,31 @@
 .titulo {
   background-color: white;
   color: #01016D;
-  font-size: 28px;
+  font-size: 38px;
   padding: 1%;
   text-align: center;
   font-family: 'Segoe UI', sans-serif;
+  margin-top: 2%;
 }
 
 /* Remove or adjust these styles to avoid affecting the banner */
 #imagen-logo, #imagen-logo2 {
   /* Consider removing these if they affect the banner */
-  width: 70px;
-  height: 70px;
-  margin-top: 1%;
+  width: 100px;
+  height: 100px;
+  
 }
 
 #imagen-logo {
   float: left;
-  margin-left: 3%;
+  margin-left: 4%;
+  margin-top: 1%;
 }
 
 #imagen-logo2 {
   float: right;
-  margin-right: 3%;
+  margin-right: 4%;
+  margin-top: 1%;
 }
 
 /* Remove or adjust these styles for the banner */
