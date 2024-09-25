@@ -10,7 +10,7 @@ import Galeria from './componentes/galeria';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Footer } from './componentes/footer';
 import Banner from './componentes/banner';
-
+import Nosotros from './componentes/nosotros';
 
 
 function App() {
@@ -28,6 +28,7 @@ function App() {
               <Route path="/inscripcion_page" element={<Inscripcion/>} />
               <Route path="/resultados_page" element={<Resultados/>} />
               <Route path="/galeria_page" element={<Galeria/>} />
+              <Route path="/nosotros_page" element={<Nosotros/>} />
             </Routes>
           </BrowserRouter>
       <Footer />

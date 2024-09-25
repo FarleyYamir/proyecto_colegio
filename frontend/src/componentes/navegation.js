@@ -11,7 +11,7 @@ class Navegation extends React.Component {
             <nav className="nav-container">
                 <ul className="nav-list">
                     <li className="nav-item">
-                        <button className="nav-btn" onClick={() => this.navigateTo("/")}>Home</button>
+                        <button className="nav-btn" onClick={() => this.navigateTo("/")}>Inicio</button>
                     </li>
                     <li className="nav-item">
                         <button className="nav-btn" onClick={() => this.navigateTo("/eventos_page")}>Eventos</button>
@@ -27,6 +27,9 @@ class Navegation extends React.Component {
                     </li>
                     <li className="nav-item">
                         <button className="nav-btn" onClick={() => this.navigateTo("/galeria_page")}>Galería</button>
+                    </li>
+                    <li className="nav-item">
+                        <button className="nav-btn" onClick={() => this.navigateTo("/nosotros_page")}>Nosotros</button>
                     </li>
                 </ul>
             </nav>

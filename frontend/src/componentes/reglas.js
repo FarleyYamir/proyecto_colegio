@@ -33,7 +33,7 @@ function Reglas() {
                 <img src={futbol} alt="Imagen relacionada con microfútbol" className="imagen-tarjeta" />
                 <h2 className="subtitulo-tarjeta">MICROFÚTBOL</h2>
                 <button onClick={() => openModal(`
-                    <p>En la institución educativa se maneja el reglamento de microfútbol y no el de futbol sala, ya que las condiciones del polideportivo de la institución y el material del suelo no es el adecuado para el futbol sala, el tiempo que se maneja en los partidos amistosos si es el mismo y las demás reglas también.</p>
+                    <p>En la institución educativa se maneja el reglamento de microfútbol.</p>
                     <h3 class="subtitulo-tarjeta">Adaptación en la institución educativa</h3>
                     <p>A continuación algunas reglas del microfútbol: <br /><br /> 
                     <b>1.</b>Duración del Partido: Se juega en dos tiempos de 20 minutos cada uno, con un descanso de 10 minutos entre ambos. <br /> 
@@ -45,7 +45,7 @@ function Reglas() {
                     <b>7. </b>Tarjetas: Los jugadores pueden recibir tarjetas amarillas y rojas. Dos amarillas resultan en una roja. <br />
                     <b>8. </b>Regla del Portero: El portero no puede tocar el balón con las manos fuera de su área y no puede mantener el balón en sus manos más de 4 segundos. <br />
                     <b>9. </b>Reposición de Balón: Se realiza con el pie desde la línea de banda. <br />
-                    <b>10. </b>Distancia en los Tiros Libres: Los jugadores defensores deben estar a una distancia mínima de 5 metros del balón durante los tiros libres. <br /></p>
+                    <b>10. </b>Distancia en los Tiros Libres: Los jugadores defensores deben estar a una distancia mínima de 5 metros del balón.<br /></p>
                 `)}>Reglamento</button>
             </div>
 
@@ -53,17 +53,17 @@ function Reglas() {
                 <img src={baloncesto} alt="Imagen relacionada con baloncesto" className="imagen-tarjeta" />
                 <h2 className="subtitulo-tarjeta">BALONCESTO</h2>
                 <button onClick={() => openModal(`
-                    <p>En la institución educativa se maneja el reglamento del baloncesto en su totalidad en cuanto a la realización del juego, más que todo en la jornada de la mañana, en la jornada de la tarde se maneja el reglamento pero se perdonan  algunas faltas leves y movimientos inválidos, más que todo por la poca práctica de este deporte en dicha jornada, los mejores jugadores son enviados a entrenar en la jornada de la mañana para pulir sus habilidades y hacer parte de la selección de la institución educativa.</p>
+                    <p>En la institución educativa se maneja el reglamento del baloncesto en su totalidad.</p>
                     <h3 class="subtitulo-tarjeta">Adaptación en la institución educativa</h3>
                     <p>A continuación algunas reglas que se manejan en la institución educativa: <br /><br />
-                    <b>1. </b>El terreno de juego será una superficie plana y dura, libre de obstáculos, con unas dimensiones de veintiocho (28) metros de largo y quince (15) metros de ancho, medidos desde el borde interior de las líneas limítrofes. <br />
+                    <b>1. </b>El terreno de juego será una superficie plana y dura, libre de obstáculos, con unas dimensiones de veintiocho 28 * 15 metros. <br />
                     <b>2. </b>Por norma general se utilizará el balón oficial de baloncesto, tamaño 7. Excepcionalmente, en la división más baja de nivel G2, se podrá utilizar un balón del tamaño 6 si así lo acuerdan los entrenadores al comienzo del partido. <br />
-                    <b>3. </b>El equipo deberá presentarse en la cancha con un número mínimo de cinco (5) jugadores y máximo de diez (10). Ningún equipo podrá inscribirse en el campeonato con un número inferior a seis (6) jugadores. La recomendación por parte de la Federación es que la inscripción se realice con siete (7) o más jugadores, hasta un máximo de diez (10). <br />
+                    <b>3. </b>El equipo deberá presentarse en la cancha con un número mínimo de cinco (5) jugadores y máximo de diez (10). Ningún equipo podrá inscribirse en el campeonato con un número inferior a seis (6) jugadores.<br />
                     <b>4. </b>Será causa de suspensión del partido cuando un equipo se quede con tres (3) o menos de tres (3) jugadores en el terreno de juego. <br />
-                    <b>5. </b>El entrenador avisará a la mesa antes de realizar el cambio, que se debe efectuar por la línea de medio campo. Todos los jugadores inscritos en el acta del partido quedarán sometidos durante todo el partido a la autoridad y jurisdicción del árbitro, ello con independencia de su participación o no en el juego. Un equipo puede sustituir a uno o varios jugadores durante una oportunidad de sustitución. <br />
-                    <b>6. </b>En las faltas el balón se concederá al equipo contrario al infractor para que realice un saque desde el punto más cercano en la banda. Un jugador no agarrará, bloqueará, cargará, zancadilleará ni impedirá el avance de un adversario extendiendo las manos, brazos, codos, hombros, cadera, piernas, rodillas ni pies, ni incurrirá en juego brusco o violento. <br />
+                    <b>5. </b>El entrenador avisará a la mesa antes de realizar el cambio, que se debe efectuar por la línea de medio campo. Todos los jugadores inscritos en el acta del partido quedarán sometidos durante todo el partido a la autoridad y jurisdicción del árbitro. <br />
+                    <b>6. </b>En las faltas el balón se concederá al equipo contrario al infractor para que realice un saque desde el punto más cercano en la banda. Un jugador no incurrirá en juego brusco o violento. <br />
                     <b>7. </b>Un jugador será descalificado y no podrá seguir jugando el partido en curso cuando cometa dos (2) faltas antideportivas o cinco (5) faltas personales. <br />
-                    <b>8. </b>Todos los jugadores y técnicos deberán velar porque impere el juego limpio durante toda la competición, esto significa algo más que cumplir las normas del juego, abarcando los conceptos de amistad, respeto al adversario y espíritu deportivo. <br />
+                    <b>8. </b>Todos los jugadores y técnicos deberán velar porque impere el juego limpio durante toda la competición. <br />
                      <b>9. </b>Es obligatorio que todos los jugadores del equipo lleven la misma equipación, que estará compuesta por: CAMISETA CON O SIN MANGAS, PANTALONES CORTOS del mismo color que el resto del equipo y MEDIAS O CALCETINES. <br />
                     Las camisetas deberán ir numeradas por el dorso, siendo los números claramente visibles. <br />
                     <b>10. </b>Los partidos constarán de cuatro (4) períodos de diez (10) minutos y se jugarán a reloj corrido, excepto el último minuto del segundo y del cuarto cuarto del partido que se hará a reloj parado. <br />

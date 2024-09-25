@@ -39,4 +39,7 @@ app.get("/galeria_page", function(req, res){
     res.sendFile(dir + "/" + dir_front + "/"+ "index.html")
 })
 
+app.get("/nosotros_page", function(req, res){
+    res.sendFile(dir + "/" + dir_front + "/" + "index.html")
+})
 

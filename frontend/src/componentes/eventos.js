@@ -26,7 +26,7 @@ function Eventos() {
                             <h5 className="card-title"><b>MICROFÚTBOL (FÚTBOL DE SALÓN)</b></h5>
                             <p className="card-text"><b>Adaptación en la institución educativa:</b></p>
                             <p className="card-text">
-                            El fútbol sala es un deporte de colaboración-oposición. Participan dos equipos compuestos por cinco personas, de las cuales, una ocupa la posición de portero/a. Se juega en una superficie rectangular de 40×20 metros, con una duración de 2 tiempos de 20 minutos a reloj parado. Es el deporte más practicado en la jornada de la tarde en nuestra institución educativa, siendo incluso el más practicado a nivel mundial después del futbol11, es un deporte lleno de adrenalina por la intensidad con la que se juega, la institución educativa, más que todo en la jornada de la tarde, ha tenido grandes participaciones a nivel departamental y nacional en diferentes categorías.
+                            El fútbol sala es un deporte de colaboración-oposición en el que dos equipos de cinco jugadores, incluyendo un portero, compiten en una cancha rectangular de 40×20 metros. El juego se desarrolla en dos tiempos de 20 minutos a reloj parado. Es el deporte más practicado en las tardes en nuestra institución educativa y, a nivel mundial, es el segundo más popular después del fútbol 11. La institución ha tenido destacadas participaciones a nivel departamental y nacional en diversas categorías, destacando la intensidad y adrenalina del juego.
                             </p>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ function Eventos() {
                             <h5 className="card-title"><b>AJEDREZ</b></h5>
                             <p className="card-text"><b>Adaptación en la institución educativa:</b></p>
                             <p className="card-text">
-                            El ajedrez es un deporte que no maneja una gran cantidad de reglas, más que todo se maneja una forma específica de mover y cumplir una función con las diferentes piezas que tienes para jugar. El objetivo de ambos jugadores es el mismo y el reglamento no tiene cambios.
+                            El ajedrez es un deporte estratégico que se basa en un conjunto limitado de reglas, centrándose en el movimiento y la función de las distintas piezas en el tablero. Cada jugador tiene el mismo objetivo: capturar al rey del oponente. A lo largo del juego, las reglas permanecen constantes, lo que permite a los jugadores desarrollar tácticas y estrategias variadas. La simplicidad en las normas contrasta con la complejidad del juego, lo que convierte al ajedrez en un desafío intelectual fascinante que ha cautivado a personas de todas las edades en todo el mundo.
                             </p>
                         </div>
                     </div>

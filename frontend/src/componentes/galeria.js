@@ -16,7 +16,7 @@ function Galeria() {
                     <div className="card">
                         <img src={imagen1} className="card-img-top" alt="Imagen 1" />
                         <div className="card-body">
-                            <h5 className="card-title">Imagen 1</h5>
+                            <h5 className="card-title">Competencia Deportiva</h5>
                             <p className="card-text">Partido entre profesores y alumnos.</p>
                         </div>
                     </div>
@@ -26,7 +26,7 @@ function Galeria() {
                     <div className="card">
                         <img src={imagen2} className="card-img-top" alt="Imagen 2" />
                         <div className="card-body">
-                            <h5 className="card-title">Imagen 2</h5>
+                            <h5 className="card-title">Fútbol Sala</h5>
                             <p className="card-text">Juega, sueña, diviértete, aprende, siéntete orgulloso de jugar este deporte.</p>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ function Galeria() {
                     <div className="card">
                         <img src={imagen3} className="card-img-top" alt="Imagen 3" />
                         <div className="card-body">
-                            <h5 className="card-title">Imagen 3</h5>
+                            <h5 className="card-title">Ataque en Equipo</h5>
                             <p className="card-text">Primer gol de los profesores.</p>
                         </div>
                     </div>
@@ -46,7 +46,7 @@ function Galeria() {
                     <div className="card">
                         <img src={imagen4} className="card-img-top" alt="Imagen 4" />
                         <div className="card-body">
-                            <h5 className="card-title">Imagen 4</h5>
+                            <h5 className="card-title">Tarde Deportiva</h5>
                             <p className="card-text">Qué partidazo de los profesores con los alumnos.</p>
                         </div>
                     </div>
