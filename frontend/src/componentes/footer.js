@@ -11,7 +11,7 @@ export const Footer = () => {
             <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Institución educativa General Santander</a></li>
   
             </ul>
-            <p className="text-pie">Dirección: cll 6# 8-10 Villa del Rosario - Colombia. <br /> Teléfono: (607)-5700330.<br /> julio 2024</p>
+            <p className="text-pie">Dirección: cll 6# 8-10 Villa del Rosario - Colombia. <br /> Correo electrónico: encuentrosdeportivoscolgesan@gmail.com<br /> Teléfono: (607)-5700330.<br /> 2024</p>
         </footer>
     </div>
     </div>

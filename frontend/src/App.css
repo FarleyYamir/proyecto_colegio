@@ -40,7 +40,14 @@
 }
 
 /* Remove or adjust these styles to avoid affecting the banner */
-#imagen-logo, #imagen-logo2 {
+#imagen-logo {
+  /* Consider removing these if they affect the banner */
+  width: 90px;
+  height: 90px;
+  
+}
+
+#imagen-logo2 {
   /* Consider removing these if they affect the banner */
   width: 100px;
   height: 100px;
@@ -50,13 +57,13 @@
 #imagen-logo {
   float: left;
   margin-left: 4%;
-  margin-top: 1%;
+  margin-top: 1.2%;
 }
 
 #imagen-logo2 {
   float: right;
   margin-right: 4%;
-  margin-top: 1%;
+  margin-top: 1.2%;
 }
 
 /* Remove or adjust these styles for the banner */
@@ -100,4 +107,13 @@
 
 .text-pie {
   color: white;
+}
+
+
+.imag-nos{
+  width: 100%; /* Ajusta la imagen al 100% del ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  display: block; /* Elimina el espacio debajo de la imagen */
+  border-radius: 25px;
+  overflow: hidden;
 }

@@ -18,13 +18,14 @@ function Nosotros() {
             <div className="row row-cols-1 row-cols-md-2 g-4"> 
                 <div className="col">
                     <div className="card">
-                        <div className="imag-even">
+                        <div className="imag-even1">
                             <img src={nosimagen1} alt="Microfútbol" />
                         </div>
                         <br></br>
                         <br></br>
                         <div className="card-body">
                             <h5 className="card-title"><b>María Angélica Arciniegas Acevedo</b></h5>
+                            <p className="card-text"><b>Estudiante 11°</b></p>
                            
                         </div>
                     </div>
@@ -32,27 +33,28 @@ function Nosotros() {
 
                 <div className="col">
                     <div className="card">
-                        <div className="imag-even">
+                        <div className="imag-even1">
                             <img src={nosimagen2} alt="Baloncesto" />
                         </div>
                         <br></br>
                         <br></br>
                         <div className="card-body">
                             <h5 className="card-title"><b>Astrid Eliana Estupiñan Mejía</b></h5>
-                          </div>
+                            <p className="card-text"><b>Estudiante 11°</b></p>                          
+                            </div>
                     </div>
                 </div>
 
                 <div className="col">
                     <div className="card">
-                        <div className="imag-even">
+                        <div className="imag-even1">
                             <img src={nosimagen3} alt="Baloncesto" />
                         </div>
                         <br></br>
                         <br></br>
                         <div className="card-body">
                             <h5 className="card-title"><b>Meylin Dayana Blanco Mejía</b></h5>
-                           
+                            <p className="card-text"><b>Estudiante 11°</b></p>
                         </div>
                     </div>
                 </div>

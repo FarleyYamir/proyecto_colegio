@@ -67,6 +67,8 @@
     width: 80%;
     max-width: 600px;
     position: relative;
+    max-height: 80%; /* Para que no ocupe toda la pantalla */
+    overflow-y: auto; /* Barra de desplazamiento vertical */
 }
 
 .modal-contenido h3 {

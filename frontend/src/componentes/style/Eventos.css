@@ -2,12 +2,32 @@
   .imag-even {
     border-radius: 25px;
     overflow: hidden; /* Asegura que la imagen no sobresalga del contenedor */
+ 
   }
   
   .imag-even img {
     width: 100%; /* Ajusta la imagen al 100% del ancho del contenedor */
+    height: 200px; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina el espacio debajo de la imagen */
+  }
+
+  .imag-even1 {
+    border-radius: 25px;
+    overflow: hidden; /* Asegura que la imagen no sobresalga del contenedor */
+ 
+  }
+  
+  .imag-even1 img {
+    width: 100%; /* Ajusta la imagen al 100% del ancho del contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
     display: block; /* Elimina el espacio debajo de la imagen */
+  }
+
+  .even-img1 {
+    width: 100%; /* Ajusta la imagen al 100% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina el espacio debajo de la imagen */
+    
   }
   
   /* Cards */
