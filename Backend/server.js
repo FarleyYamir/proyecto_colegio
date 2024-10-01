@@ -3,7 +3,7 @@ import path from 'path'
 
 const app = Express()
 const dir = path.resolve()
-const dir_front = "frontend/build"
+const dir_front = "../frontend/build"
 
 app.use(Express.static(dir_front))
 
